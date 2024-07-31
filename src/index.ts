@@ -1,5 +1,10 @@
-const message = "(Webpack Typescript Template) index.ts: Hello World";
+const message: string = "(Webpack Typescript Template) index.ts: Hello World";
+
+function appendToBody(messageToAppend: string): void {
+  const div: HTMLDivElement = document.createElement("div");
+  div.innerHTML = messageToAppend;
+  document.body.appendChild(div);
+}
+
 console.log(message);
-const div = document.createElement("div");
-div.innerHTML = message;
-document.body.appendChild(div);
+appendToBody(message);
