@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("(Webpack Typescript Template) index.ts: Hi");const e=document.createElement("div");e.innerHTML="(Webpack Typescript Template) index.ts: Hi",document.body.appendChild(e)})();
