@@ -1,0 +1,21 @@
+{
+  "name": "webpack-typescript-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "clear && npx webpack --config webpack.config.js",
+    "serve": "clear && npx webpack serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "type": "module",
+  "devDependencies": {
+    "copy-webpack-plugin": "^12.0.2",
+    "ts-loader": "^9.5.1",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^5.0.4"
+  }
+}
