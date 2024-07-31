@@ -1,4 +1,5 @@
-console.log("(Webpack Typescript Template) index.ts: Hi");
+const message = "(Webpack Typescript Template) index.ts: Hello World";
+console.log(message);
 const div = document.createElement("div");
-div.innerHTML = "(Webpack Typescript Template) index.ts: Hi";
+div.innerHTML = message;
 document.body.appendChild(div);
