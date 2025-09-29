@@ -47,7 +47,7 @@ To build and preview:
 # Preview the contents of the dist/ folder
 npm run preview
 ```
-### Enable actions to auto build and deploy to Github Pages
+### Enable Github Actions to automatically build and deploy to Github Pages on every push to repository
 
 ###### *This is optional*
 
