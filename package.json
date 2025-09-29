@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build": "clear && npx webpack --config webpack.config.js",
+    "build": "npx webpack --config webpack.config.js",
     "ga-build": "npx webpack --config webpack.config.js",
-    "serve": "clear && npx webpack serve",
+    "serve": "npx webpack serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
