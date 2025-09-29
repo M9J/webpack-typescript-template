@@ -17,7 +17,7 @@ jobs:
         run: npm install
 
       - name: Take build
-        run: npm run ga-build
+        run: npm run build
 
       - name: Upload build
         uses: actions/upload-artifact@v4
