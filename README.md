@@ -1,16 +1,27 @@
 # Webpack Typescript Template
 
-A simple project with Webpack for bundling with Typescript support.
+A simple template repository with Webpack for bundling with Typescript support.
 
-To setup:
+To use this repository for your webpack-typescript projects:
+
+**Step 1**: Follow Github's official instructions on [Creating a repository from a template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template).
+
+**Step 2**: Once your new repository is created, clone it to your local system.
 
 ```shell
-# Clone template repository
-git clone https://github.com/M9J/webpack-typescript-template.git
+# To clone repository
+git clone https://github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 
 # Change to cloned repository
-cd webpack-typescript-template
+cd <REPOSITORY_NAME>
+```
+*Update <GITHUB_USERNAME> and <REPOSITORY_NAME> properly.
 
+**Step 3**: Once cloned, you can run below commands from your repository directory.
+
+To install dependencies:
+
+```shell
 # Install dependencies
 npm install
 ```
