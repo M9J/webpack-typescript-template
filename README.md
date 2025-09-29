@@ -49,4 +49,4 @@ npm run preview
 ```
 
 
-[View Docs for more information and hints](docs/docs-index.md)
+[View Docs for more](docs/docs-index.md)
