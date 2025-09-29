@@ -1,11 +1,12 @@
 {
   "name": "webpack-typescript-template",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "2.0.0",
+  "main": "index.ts",
   "scripts": {
     "build": "npx webpack --config webpack.config.js",
-    "ga-build": "npx webpack --config webpack.config.js",
+    "preview": "npm run build && npx http-server dist --port=80",
     "serve": "npx webpack serve",
+    "start": "npm run serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
