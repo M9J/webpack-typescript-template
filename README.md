@@ -14,8 +14,9 @@ git clone https://github.com/<GITHUB_USERNAME>/<REPOSITORY_NAME>.git
 
 # Change to cloned repository
 cd <REPOSITORY_NAME>
+
+# NOTE: Update <GITHUB_USERNAME> and <REPOSITORY_NAME> properly.
 ```
-*Update <GITHUB_USERNAME> and <REPOSITORY_NAME> properly.
 
 **Step 3**: Once cloned, you can run below commands from your repository directory.
 
