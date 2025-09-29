@@ -77,7 +77,7 @@ Make sure Source is `Deploy from a branch` and Branch is `build`.
 
 ![Github Pages Configuration](docs/assets/pages-configuration.png)
 
-Click `Save`. Wait for the Pages Deployment Action to finish.
+Click `Save` and wait for the `Pages Build and Deployment Action` to finish.
 
 Once done, check your repository's Github Pages URL to see the deployed build.
 
