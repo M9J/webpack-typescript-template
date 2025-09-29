@@ -48,5 +48,5 @@ To build and preview:
 npm run preview
 ```
 
-### Next
-![Index](docs/docs-index.md)
+
+[View Docs for more information and hints](docs/docs-index.md)
